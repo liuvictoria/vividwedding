@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vividwedding/static/css/main.f855e6bc.css",
+    "main.js": "/vividwedding/static/js/main.6e6e7a0f.js",
+    "static/js/453.db567d8f.chunk.js": "/vividwedding/static/js/453.db567d8f.chunk.js",
+    "static/media/logo.svg": "/vividwedding/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/vividwedding/index.html",
+    "main.f855e6bc.css.map": "/vividwedding/static/css/main.f855e6bc.css.map",
+    "main.6e6e7a0f.js.map": "/vividwedding/static/js/main.6e6e7a0f.js.map",
+    "453.db567d8f.chunk.js.map": "/vividwedding/static/js/453.db567d8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.6e6e7a0f.js"
+  ]
+}
