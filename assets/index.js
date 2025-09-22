@@ -10148,7 +10148,7 @@ function Um() {
                 src: "assets/end/text.png"
             }), _("a", {
                 className: yt(At.weddingSiteButton, "buttonPlain"),
-                href: "https://withjoy.com/kat-matt/welcome",
+                href: "https://sites.google.com/view/significant-otters",
                 onClick: () => {
                     Ec.play()
                 }
