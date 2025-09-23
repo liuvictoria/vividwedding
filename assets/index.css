@@ -587,6 +587,7 @@ body {
     margin: 0;
     display: flex;
     height: 111.11%;
+    width: 111.11%;
     place-items: center;
     min-width: 320px
 }
