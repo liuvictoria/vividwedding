@@ -85,7 +85,7 @@
 ._containerOuter_1ips9_23 {
     align-items: center;
     background-repeat: no-repeat;
-    background-image: url(/vividwedding/assets/background.png);
+    background-image: url(/assets/background.png);
     background-size: 100% 100%;
     background-position: bottom;
     display: flex;
@@ -94,14 +94,14 @@
 }
 
 ._katherineBackground_1ips9_34 {
-    background-image: url(/vividwedding/assets/katherine-background.png);
+    background-image: url(/assets/katherine-background.png);
     background-size: cover;
     position: relative;
     z-index: 1
 }
 
 ._mattBackground_1ips9_41 {
-    background-image: url(/vividwedding/assets/matt-background.png);
+    background-image: url(/assets/matt-background.png);
     background-size: cover;
     position: relative;
     z-index: 1
@@ -144,7 +144,7 @@
 }
 
 ._selected_1ips9_83 {
-    background-image: url(/vividwedding/assets/click-highlight.png);
+    background-image: url(/assets/click-highlight.png);
     background-size: cover;
     bottom: 0;
     left: 0;
@@ -157,7 +157,7 @@
 
 ._sparkle_1ips9_53 {
     display: none;
-    background-image: url(/vividwedding/assets/sparkle.gif);
+    background-image: url(/assets/sparkle.gif);
     background-size: cover;
     bottom: 0;
     left: 0;
@@ -202,19 +202,19 @@
 }
 
 ._skipButton_11xis_1 {
-    background-image: url(/vividwedding/assets/skip.png);
+    background-image: url(/assets/skip.png);
     background-size: cover;
     height: 55px;
     width: 200px
 }
 
 ._skipButton_11xis_1:active {
-    background-image: url(/vividwedding/assets/skip-hover.png)
+    background-image: url(/assets/skip-hover.png)
 }
 
 @media (hover: hover) {
     ._skipButton_11xis_1:hover {
-        background-image:url(/vividwedding/assets/skip-hover.png)
+        background-image:url(/assets/skip-hover.png)
     }
 }
 
@@ -226,7 +226,7 @@
 }
 
 ._goButton_psgks_1 {
-    background-image: url(/vividwedding/assets/go.png);
+    background-image: url(/assets/go.png);
     background-size: contain;
     height: 107px;
     width: 202px
@@ -238,17 +238,17 @@
 }
 
 ._goButton_psgks_1:enabled:active {
-    background-image: url(/vividwedding/assets/go-hover.png)
+    background-image: url(/assets/go-hover.png)
 }
 
 @media (hover: hover) {
     ._goButton_psgks_1:enabled:hover {
-        background-image:url(/vividwedding/assets/go-hover.png)
+        background-image:url(/assets/go-hover.png)
     }
 }
 
 ._ground_1ow5c_11 {
-    background: url(/vividwedding/assets/background/ground.png) repeat-x;
+    background: url(/assets/background/ground.png) repeat-x;
     background-position: bottom;
     background-repeat: repeat-x;
     height: 100%;
@@ -258,7 +258,7 @@
 }
 
 ._player_1mowd_1 {
-    background-image: url(/vividwedding/assets/players/matt-all-spritesheet.png);
+    background-image: url(/assets/players/matt-all-spritesheet.png);
     background-size: cover;
     bottom: 70px;
     left: 50px;
@@ -386,7 +386,7 @@
 }
 
 ._okButton_16pug_1 {
-    background-image: url(/vividwedding/assets/ok.png);
+    background-image: url(/assets/ok.png);
     background-size: cover;
     height: 96px;
     width: 182px;
@@ -398,12 +398,12 @@
 }
 
 ._okButton_16pug_1:enabled:active {
-    background-image: url(/vividwedding/assets/ok-hover.png)
+    background-image: url(/assets/ok-hover.png)
 }
 
 @media (hover: hover) {
     ._okButton_16pug_1:enabled:hover {
-        background-image:url(/vividwedding/assets/ok-hover.png)
+        background-image:url(/assets/ok-hover.png)
     }
 }
 
@@ -515,7 +515,7 @@
 }
 
 ._weddingSiteButton_ogqkz_31 {
-    background-image: url(/vividwedding/assets/end/wedding-site-button.png);
+    background-image: url(/assets/end/wedding-site-button.png);
     background-size: contain;
     height: 87px;
     margin-top: 90px;
@@ -529,12 +529,12 @@
 }
 
 ._weddingSiteButton_ogqkz_31:enabled:active {
-    background-image: url(/vividwedding/assets/end/wedding-site-button-hover.png)
+    background-image: url(/assets/end/wedding-site-button-hover.png)
 }
 
 @media (hover: hover) {
     ._weddingSiteButton_ogqkz_31:enabled:hover {
-        background-image:url(/vividwedding/assets/end/wedding-site-button-hover.png)
+        background-image:url(/assets/end/wedding-site-button-hover.png)
     }
 }
 
