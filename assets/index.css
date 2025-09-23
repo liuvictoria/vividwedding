@@ -348,10 +348,10 @@
 
 ._container_1l7jf_1 {
     background-color: #ddf9f2;
-    height: 111.11%;
+    height: 100%;
     overflow: hidden;
     position: relative;
-    width: 111.11%
+    width: 100%
 }
 
 ._container_9vye5_1 {
@@ -582,12 +582,9 @@ a:hover {
 }
 
 body {
-    transform: scale(0.9);
-    transform-origin: top left;
-    height: 111.11%;
-    width: 111.11%;
     margin: 0;
     display: flex;
+    height: 100%;
     place-items: center;
     min-width: 320px
 }
