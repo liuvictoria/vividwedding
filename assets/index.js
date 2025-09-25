@@ -9432,9 +9432,9 @@ function Lp({currentFrame: e, isSelected: t, onClick: n}) {
                 currentFrame: e,
                 src: r <= 900 ? "assets/katherine-spritesheet-small.png" : "assets/katherine-spritesheet.png"
             }), 
-            // _("div", {
-            //     className: ae.sparkle
-            // })
+            _("div", {
+                className: ae.sparkle
+            })
         ]
         }), t && _("div", {
             className: ae.selected
@@ -9452,9 +9452,9 @@ function Tp({currentFrame: e, isSelected: t, onClick: n}) {
                 currentFrame: e,
                 src: r <= 900 ? "assets/matt-spritesheet-small.png" : "assets/matt-spritesheet.png"
             }), 
-            // _("div", {
-            //     className: ae.sparkle
-            // })
+            _("div", {
+                className: ae.sparkle
+            })
         ]
         }), t && _("div", {
             className: ae.selected
