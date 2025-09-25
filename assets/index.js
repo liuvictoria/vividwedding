@@ -9431,8 +9431,7 @@ function Lp({currentFrame: e, isSelected: t, onClick: n}) {
             children: [_(Cc, {
                 currentFrame: e,
                 src: r <= 900 ? "assets/katherine-spritesheet-small.png" : "assets/katherine-spritesheet.png"
-            }), 
-            _("div", {
+            }), _("div", {
                 className: ae.sparkle
             })
         ]
@@ -9451,8 +9450,7 @@ function Tp({currentFrame: e, isSelected: t, onClick: n}) {
             children: [_(Cc, {
                 currentFrame: e,
                 src: r <= 900 ? "assets/matt-spritesheet-small.png" : "assets/matt-spritesheet.png"
-            }), 
-            _("div", {
+            }), _("div", {
                 className: ae.sparkle
             })
         ]
