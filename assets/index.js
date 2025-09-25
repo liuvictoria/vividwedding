@@ -9381,11 +9381,11 @@ function kp() {
 function bi() {
     return wp(kp)
 }
-const Ec = new Audio("/assets/sound-effects/clicked-go-and-wedding-site.ogg")
-  , Ln = new Audio("/assets/sound-effects/clicked-ok-and-skip-and-player.ogg")
-  , Sp = new Audio("/assets/sound-effects/collect.ogg")
-  , _p = new Audio("/assets/sound-effects/hit-rock.ogg")
-  , ri = new Audio("/assets/soundtrack.mp3");
+const Ec = new Audio("assets/sound-effects/clicked-go-and-wedding-site.ogg")
+  , Ln = new Audio("assets/sound-effects/clicked-ok-and-skip-and-player.ogg")
+  , Sp = new Audio("assets/sound-effects/collect.ogg")
+  , _p = new Audio("assets/sound-effects/hit-rock.ogg")
+  , ri = new Audio("assets/soundtrack.mp3");
 ri.loop = !0;
 const Ep = "_skipButton_11xis_1"
   , Cp = {
@@ -9431,9 +9431,11 @@ function Lp({currentFrame: e, isSelected: t, onClick: n}) {
             children: [_(Cc, {
                 currentFrame: e,
                 src: r <= 900 ? "assets/katherine-spritesheet-small.png" : "assets/katherine-spritesheet.png"
-            }), _("div", {
+            }), 
+            _("div", {
                 className: ae.sparkle
-            })]
+            })
+        ]
         }), t && _("div", {
             className: ae.selected
         })]
@@ -9449,9 +9451,11 @@ function Tp({currentFrame: e, isSelected: t, onClick: n}) {
             children: [_(Cc, {
                 currentFrame: e,
                 src: r <= 900 ? "assets/matt-spritesheet-small.png" : "assets/matt-spritesheet.png"
-            }), _("div", {
+            }), 
+            _("div", {
                 className: ae.sparkle
-            })]
+            })
+        ]
         }), t && _("div", {
             className: ae.selected
         })]
@@ -9532,10 +9536,8 @@ function Ip({alignItems: e, children: t, className: n, flexDirection: r="row", g
         children: t
     })
 }
-const Mp = "_clouds_1ow5c_1"
-  , Fp = "_ground_1ow5c_11"
-  , as = {
-    clouds: Mp,
+const Fp = "_ground_1ow5c_11"
+const as = {
     ground: Fp
 };
 function Dp({groundSpeedRef: e}) {
@@ -9633,7 +9635,7 @@ function io() {
     return window.innerWidth <= 640 ? 6e3 : 5e3
 }
 function Gp() {
-    return window.innerWidth <= 640 ? 400 : 600
+    return window.innerWidth <= 640 ? 300 : 450
 }
 function fs(e, t) {
     const n = e.getBoundingClientRect()
@@ -9733,7 +9735,7 @@ function Xp({berries: e, isRingCollected: t, player: n, rocks: r, setIsRingColle
         className: $p.player,
         id: cs,
         style: {
-            backgroundImage: n === "matt" ? "url(/assets/players/matt-all-spritesheet.png)" : "url(/assets/players/katherine-all-spritesheet.png)",
+            backgroundImage: n === "matt" ? "url(assets/players/matt-all-spritesheet.png)" : "url(/assets/players/katherine-all-spritesheet.png)",
             backgroundPosition: `-${D * v}px 0`,
             height: v * 1.6869,
             transform: `translate(${Math.min(i, document.body.clientWidth - v * 2.2)}px, ${s}px)`,
@@ -10088,9 +10090,9 @@ function Om({onGo: e, onSkip: t}) {
                 className: Ct.intro,
                 src: "assets/intro.png"
             }), _("img", {
-                className: Ct.title,
-                src: "assets/how-to-play/how-to-play.png"
-            }), _("img", {
+            //     className: Ct.title,
+            //     src: "assets/how-to-play/how-to-play.png"
+            // }), _("img", {
                 className: Ct.text,
                 src: "assets/how-to-play/text.png"
             }), he("div", {
@@ -10146,7 +10148,7 @@ function Um() {
                 src: "assets/end/text.png"
             }), _("a", {
                 className: yt(At.weddingSiteButton, "buttonPlain"),
-                href: "https://withjoy.com/kat-matt/welcome",
+                href: "https://sites.google.com/view/significant-otters",
                 onClick: () => {
                     Ec.play()
                 }

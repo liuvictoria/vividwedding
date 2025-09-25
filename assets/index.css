@@ -86,7 +86,7 @@
     align-items: center;
     background-repeat: no-repeat;
     background-image: url(/assets/background.png);
-    background-size: 100% 100%;
+    background-size: 100% 70vh;
     background-position: bottom;
     display: flex;
     min-height: 100%;
@@ -139,7 +139,7 @@
 ._players_1ips9_77 {
     display: flex;
     column-gap: 50px;
-    justify-content: center;
+    justify-content: center
 }
 
 ._selected_1ips9_83 {
@@ -150,8 +150,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 0;
-    opacity:.3
+    z-index: 0
 }
 
 ._sparkle_1ips9_53 {
@@ -204,8 +203,7 @@
     background-image: url(/assets/skip.png);
     background-size: cover;
     height: 55px;
-    width: 200px;
-    margin-bottom: 30px
+    width: 200px
 }
 
 ._skipButton_11xis_1:active {
@@ -220,7 +218,7 @@
 
 @media only screen and (max-width: 640px) {
     ._skipButton_11xis_1 {
-        height:32.4px;
+        height:36.4px;
         width: 117.6px
     }
 }
@@ -228,14 +226,13 @@
 ._goButton_psgks_1 {
     background-image: url(/assets/go.png);
     background-size: contain;
-    height: 107px;
-    width: 202px;
-    margin-bottom: 30px
+    height: 87px;
+    width: 214px
 }
 
 ._goButton_psgks_1:disabled {
     cursor: default;
-    opacity: .2
+    opacity: .48
 }
 
 ._goButton_psgks_1:enabled:active {
@@ -246,6 +243,16 @@
     ._goButton_psgks_1:enabled:hover {
         background-image:url(/assets/go-hover.png)
     }
+}
+
+._clouds_1ow5c_1 {
+    background: url(/assets/background/clouds.png) repeat-x;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 100%;
+    position: absolute;
+    width: 6000px;
+    will-change: transform
 }
 
 ._ground_1ow5c_11 {
@@ -389,8 +396,8 @@
 ._okButton_16pug_1 {
     background-image: url(/assets/ok.png);
     background-size: cover;
-    height: 96px;
-    width: 182px;
+    height: 113px;
+    width: 214px
 }
 
 ._okButton_16pug_1:disabled {
@@ -435,7 +442,7 @@
 }
 
 ._containerOuter_k06wi_20 {
-    background-color: #c9e2f2;
+    background-color: #6d91c2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -443,13 +450,13 @@
 }
 
 ._intro_k06wi_28 {
-    max-width: 800px;
+    max-width: 700px;
     width: 100%
 }
 
 ._text_k06wi_33 {
     margin-top: 44px;
-    max-width: 500px;
+    max-width: 560px;
     width: 100%
 }
 
@@ -499,7 +506,7 @@
 }
 
 ._containerOuter_ogqkz_13 {
-    background-color: #c9e2f2;
+    background-color: #6d91c2;
     display: flex;
     flex-direction: column;
     height: 100%;
