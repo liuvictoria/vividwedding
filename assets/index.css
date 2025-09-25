@@ -185,6 +185,10 @@
         background-size: auto
     }
 
+    ._goButton_psgks_1 {
+        height: 70px;
+    }
+
     ._playerBackground_1ips9_48,._playerGif_1ips9_53,._sparkle_1ips9_53 {
         height: calc(579px * .8);
         width: 304px
