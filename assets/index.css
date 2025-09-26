@@ -410,8 +410,8 @@
 
 @media only screen and (max-width: 640px) {
     ._okButton_16pug_1 {
-        height:60px;
-        width: 31.8px;
+        height:79.3px;
+        width: calc(214px * .7)
     }
 }
 
