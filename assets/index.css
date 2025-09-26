@@ -185,6 +185,11 @@
         background-size: auto
     }
 
+    ._okButton_16pug_1 {
+        height: 107px;
+        width: 202px;
+    }
+
     ._playerBackground_1ips9_48,._playerGif_1ips9_53,._sparkle_1ips9_53 {
         height: calc(579px * .8);
         width: 304px
