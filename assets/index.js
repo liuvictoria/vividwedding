@@ -9725,7 +9725,7 @@ function Xp({berries: e, isRingCollected: t, player: n, rocks: r, setIsRingColle
             // The new line with the "play once" logic
             f(E => w.current ? E < 4 ? E + 1 : 4 : d.current ? (E < Yp ? Yp : (E < (Yp + oo - 1) ? E + 1 : (Yp + oo - 1))) : (E + 1) % oo)
         }
-        , 100);
+        , 130);
         return () => clearInterval(S)
     }
     , []);
