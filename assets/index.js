@@ -10147,7 +10147,7 @@ function Um() {
                 src: "assets/end/text.png"
             }), _("a", {
                 className: yt(At.weddingSiteButton, "buttonPlain"),
-                href: "https://rsvp.vividzhangwedding.com",
+                href: "https://www.rsvp.vividzhangwedding.com",
                 onClick: () => {
                     Ec.play()
                 }
